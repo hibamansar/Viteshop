@@ -7,7 +7,7 @@ const products = [
     price: 49.99,
     new: true,
     category: "femmes",
-    image: "/images/dress.jpg",
+    image: "/images/baby-clothes.png",
   },
   {
     id: 2,
@@ -16,7 +16,7 @@ const products = [
     price: 39.99,
     new: false,
     category: "femmes",
-    image: "/images/dress.jpg",
+    image: "/images/baby-clothes.png",
   },
   {
     id: 3,
@@ -25,7 +25,7 @@ const products = [
     price: 69.99,
     new: true,
     category: "femmes",
-    image: "/images/dress.jpg",
+    image: "/images/baby-clothes.png",
   },
   {
     id: 4,
@@ -34,7 +34,7 @@ const products = [
     price: 129.99,
     new: false,
     category: "femmes",
-    image: "/images/dress.jpg",
+    image: "/images/baby-clothes.png",
   },
   {
     id: 5,
@@ -43,7 +43,7 @@ const products = [
     price: 34.99,
     new: true,
     category: "femmes",
-    image: "/images/dress.jpg",
+    image: "/images/baby-clothes.png",
   },
   {
     id: 6,
@@ -52,7 +52,7 @@ const products = [
     price: 79.99,
     new: true,
     category: "femmes",
-    image: "/images/dress.jpg",
+    image: "/images/baby-clothes.png",
   },
   {
     id: 7,
@@ -61,7 +61,7 @@ const products = [
     price: 49.99,
     new: false,
     category: "femmes",
-    image: "/images/dress.jpg",
+    image: "/images/baby-clothes.png",
   },
   {
     id: 8,
@@ -70,7 +70,7 @@ const products = [
     price: 89.99,
     new: false,
     category: "femmes",
-    image: "/images/dress.jpg",
+    image: "/images/baby-clothes.png",
   },
   {
     id: 9,
@@ -79,7 +79,7 @@ const products = [
     price: 39.99,
     new: true,
     category: "femmes",
-    image: "/images/dress.jpg",
+    image: "/images/baby-clothes.png",
   },
   {
     id: 10,
@@ -88,7 +88,7 @@ const products = [
     price: 44.99,
     new: true,
     category: "femmes",
-    image: "/images/dress.jpg",
+    image: "/images/baby-clothes.png",
   },
 
   // hommes
@@ -99,7 +99,7 @@ const products = [
     price: 29.99,
     new: true,
     category: "hommes",
-    image: "/images/dress.jpg",
+    image: "/images/baby-clothes.png",
   },
   {
     id: 12,
@@ -108,7 +108,7 @@ const products = [
     price: 19.99,
     new: false,
     category: "hommes",
-    image: "/images/dress.jpg",
+    image: "/images/baby-clothes.png",
   },
   {
     id: 13,
@@ -117,7 +117,7 @@ const products = [
     price: 25.99,
     new: true,
     category: "hommes",
-    image: "/images/dress.jpg",
+    image: "/images/baby-clothes.png",
   },
   {
     id: 14,
@@ -126,7 +126,7 @@ const products = [
     price: 19.99,
     new: false,
     category: "hommes",
-    image: "/images/dress.jpg",
+    image: "/images/baby-clothes.png",
   },
   {
     id: 15,
@@ -135,7 +135,7 @@ const products = [
     price: 69.99,
     new: true,
     category: "hommes",
-    image: "/images/dress.jpg",
+    image: "/images/baby-clothes.png",
   },
   {
     id: 16,
@@ -144,7 +144,7 @@ const products = [
     price: 99.99,
     new: false,
     category: "hommes",
-    image: "/images/dress.jpg",
+    image: "/images/baby-clothes.png",
   },
   {
     id: 17,
@@ -153,7 +153,7 @@ const products = [
     price: 89.99,
     new: false,
     category: "hommes",
-    image: "/images/dress.jpg",
+    image: "/images/baby-clothes.png",
   },
   {
     id: 18,
@@ -162,7 +162,7 @@ const products = [
     price: 75.99,
     new: true,
     category: "hommes",
-    image: "/images/dress.jpg",
+    image: "/images/baby-clothes.png",
   },
   {
     id: 19,
@@ -171,7 +171,7 @@ const products = [
     price: 69.99,
     new: true,
     category: "hommes",
-    image: "/images/dress.jpg",
+    image: "/images/baby-clothes.png",
   },
   {
     id: 20,
@@ -180,7 +180,7 @@ const products = [
     price: 59.99,
     new: true,
     category: "hommes",
-    image: "/images/dress.jpg",
+    image: "/images/baby-clothes.png",
   },
 
   // cuisine
@@ -191,7 +191,7 @@ const products = [
     price: 89.99,
     new: true,
     category: "cuisine",
-    image: "/images/dress.jpg",
+    image: "/images/baby-clothes.png",
   },
   {
     id: 22,
@@ -200,7 +200,7 @@ const products = [
     price: 29.99,
     new: true,
     category: "cuisine",
-    image: "/images/dress.jpg",
+    image: "/images/baby-clothes.png",
   },
   {
     id: 23,
@@ -209,7 +209,7 @@ const products = [
     price: 59.99,
     new: false,
     category: "cuisine",
-    image: "/images/dress.jpg",
+    image: "/images/baby-clothes.png",
   },
   {
     id: 24,
@@ -218,7 +218,7 @@ const products = [
     price: 49.99,
     new: true,
     category: "cuisine",
-    image: "/images/dress.jpg",
+    image: "/images/baby-clothes.png",
   },
   {
     id: 25,
@@ -227,7 +227,7 @@ const products = [
     price: 19.99,
     new: false,
     category: "cuisine",
-    image: "/images/dress.jpg",
+    image: "/images/baby-clothes.png",
   },
   {
     id: 26,
@@ -236,7 +236,7 @@ const products = [
     price: 14.99,
     new: true,
     category: "cuisine",
-    image: "/images/dress.jpg",
+    image: "/images/baby-clothes.png",
   },
   {
     id: 27,
@@ -245,7 +245,7 @@ const products = [
     price: 9.99,
     new: false,
     category: "cuisine",
-    image: "/images/dress.jpg",
+    image: "/images/baby-clothes.png",
   },
   {
     id: 28,
@@ -254,7 +254,7 @@ const products = [
     price: 12.99,
     new: true,
     category: "cuisine",
-    image: "/images/dress.jpg",
+    image: "/images/baby-clothes.png",
   },
   {
     id: 29,
@@ -263,7 +263,7 @@ const products = [
     price: 24.99,
     new: false,
     category: "cuisine",
-    image: "/images/dress.jpg",
+    image: "/images/baby-clothes.png",
   },
   {
     id: 30,
@@ -272,7 +272,7 @@ const products = [
     price: 17.99,
     new: true,
     category: "cuisine",
-    image: "/images/dress.jpg",
+    image: "/images/baby-clothes.png",
   },
 
   // bébés
@@ -283,7 +283,7 @@ const products = [
     price: 19.99,
     new: true,
     category: "bébés",
-    image: "/images/dress.jpg",
+    image: "/images/baby-clothes.png",
   },
   {
     id: 32,
@@ -292,7 +292,7 @@ const products = [
     price: 24.99,
     new: false,
     category: "bébés",
-    image: "/images/dress.jpg",
+    image: "/images/baby-clothes.png",
   },
   {
     id: 33,
@@ -301,7 +301,7 @@ const products = [
     price: 29.99,
     new: true,
     category: "bébés",
-    image: "/images/dress.jpg",
+    image: "/images/baby-clothes.png",
   },
   {
     id: 34,
@@ -310,7 +310,7 @@ const products = [
     price: 34.99,
     new: false,
     category: "bébés",
-    image: "/images/dress.jpg",
+    image: "/images/baby-clothes.png",
   },
   {
     id: 35,
@@ -319,7 +319,7 @@ const products = [
     price: 9.99,
     new: true,
     category: "bébés",
-    image: "/images/dress.jpg",
+    image: "/images/baby-clothes.png",
   },
   {
     id: 36,
@@ -328,7 +328,7 @@ const products = [
     price: 7.99,
     new: false,
     category: "bébés",
-    image: "/images/dress.jpg",
+    image: "/images/baby-clothes.png",
   },
   {
     id: 37,
@@ -337,7 +337,7 @@ const products = [
     price: 12.99,
     new: true,
     category: "bébés",
-    image: "/images/dress.jpg",
+    image: "/images/baby-clothes.png",
   },
   {
     id: 38,
@@ -346,7 +346,7 @@ const products = [
     price: 17.99,
     new: false,
     category: "bébés",
-    image: "/images/dress.jpg",
+    image: "/images/baby-clothes.png",
   },
   {
     id: 39,
@@ -355,7 +355,7 @@ const products = [
     price: 14.99,
     new: true,
     category: "bébés",
-    image: "/images/dress.jpg",
+    image: "/images/baby-clothes.png",
   },
   {
     id: 40,
@@ -364,7 +364,7 @@ const products = [
     price: 39.99,
     new: true,
     category: "bébés",
-    image: "/images/dress.jpg",
+    image: "/images/baby-clothes.png",
   },
 ];
 
