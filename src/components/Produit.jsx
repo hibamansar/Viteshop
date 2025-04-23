@@ -24,7 +24,7 @@ const Produit = ({ produit }) => {
   return (
     <div className={`product-card ${produit.new ? "new" : ""}`}>
       <div className="product-banner">
-        <img src="/images/dress.jpg" alt="dress" className="img-cover" />
+        <img src="/images/baby-clothes.png" alt="baby-clothes" className="img-cover" />
       </div>
       <div className="product-content">
         <h2 className="product-title">{produit.title}</h2>
