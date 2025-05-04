@@ -256,7 +256,7 @@ body {
   transition: background-color 0.3s;
 }
 .hero-section .hero-newsletter button:hover {
-  background-color: #16a34a;
+  background-color: oklch(0.491 0.27 292.581);
 }
 
 @media (min-width: 992px) {
