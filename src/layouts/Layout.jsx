@@ -9,7 +9,6 @@ const Layout = () => {
     <div className="layout">
       <Header />
       <main>
-        <div className="gradient"></div>
         <Outlet />
       </main>
       <Footer />
