@@ -31,7 +31,7 @@ const Aceuil = () => {
             </div>
           </div>
           <div className="hero-banner">
-            <img src="/images/banner.jpg" alt="Hero" />
+            <img src="/images/banner.png" alt="Hero" />
           </div>
         </div>
       </section>

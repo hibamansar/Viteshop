@@ -1,10 +1,31 @@
 import { Link, NavLink } from "react-router-dom";
-import { ShoppingBag, ShoppingCart, X } from "lucide-react";
+import { Moon, ShoppingBag, ShoppingCart, Sun, X } from "lucide-react";
 import { AlignJustify } from "lucide-react";
 import { useSelector } from "react-redux";
 import Cart from "./Cart";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Sidebar from "./Sidebar";
+
+const ThemeToggle = () => {
+  const getInitialTheme = () => {
+    const storedTheme = localStorage.getItem('theme');
+    const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    return storedTheme || (systemPrefersDark ? 'dark' : 'light');
+  };
+
+  const [theme, setTheme] = useState(getInitialTheme);
+
+  useEffect(() => {
+    document.documentElement.setAttribute('data-theme', theme);
+    localStorage.setItem('theme', theme);
+  }, [theme]);
+
+  const toggleTheme = () => {
+    setTheme((prev) => (prev === 'light' ? 'dark' : 'light'));
+  };
+
+  return { theme, toggleTheme };
+};
 
 const Header = () => {
   const [open, setOpen] = useState(false);
@@ -19,13 +40,18 @@ const Header = () => {
     0
   );
 
+  const { theme, toggleTheme } = ThemeToggle();
+
   const handleOpenCart = () => setOpen(!open);
   return (
     <>
       <header className="header">
         <div className="container">
           <div className="header-wrapper">
-            <button onClick={() => setIsOpen((prev) => !prev)} className="menu-button">
+            <button
+              onClick={() => setIsOpen((prev) => !prev)}
+              className="menu-button"
+            >
               {isOpen ? <X /> : <AlignJustify />}
             </button>
             <Link to="/" className="logo">
@@ -116,6 +142,22 @@ const Header = () => {
             </button>
             <span>{totalPrice.toFixed(2)} DH</span>
           </div>
+          <button
+            className="theme-toggle"
+            onClick={toggleTheme}
+            aria-label="Toggle theme">
+            {theme === 'light' ? (
+              <Sun
+                role="img"
+                aria-label="Light mode"
+              />
+            ) : (
+              <Moon
+              role="img"
+              aria-label="Light mode"
+            />
+            )}
+            </button>
         </div>
         {open && <Cart setOpen={setOpen} />}
       </header>
