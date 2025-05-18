@@ -128,7 +128,7 @@ const Header = () => {
                     isActive ? "nav-link active" : "nav-link"
                   }
                 >
-                  à propos do nous
+                  à propos de nous
                 </NavLink>
               </li>
             </ul>

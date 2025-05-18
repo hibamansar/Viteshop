@@ -14,7 +14,6 @@
   --accent-color-dark: #1f2937;
 }
 
-
 [data-theme="light"] {
   color-scheme: light;
 
@@ -34,7 +33,6 @@
   --secondary-color: var(--secondary-color-dark);
   --border-color: var(--border-color-dark);
   --accent-color: var(--accent-color-dark);
-
 }
 
 *,
@@ -64,12 +62,16 @@ img {
   max-width: 100%;
 }
 input,
+textarea,
 select,
 button {
   background: none;
   border: none;
   scrollbar-width: thin;
   font: inherit;
+}
+textarea {
+  resize: none;
 }
 ::-webkit-scrollbar {
   width: 8px;
@@ -82,7 +84,8 @@ button {
   cursor: pointer;
 }
 input,
-select {
+select,
+textarea {
   outline: none;
   width: 100%;
 }
@@ -776,7 +779,7 @@ main {
 
 .footer {
   background-color: var(--backgournd-color);
-  box-shadow: 0 -2px 4px rgba(0,0,0,0.2);
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.2);
   animation: slideUp 0.7s ease-out forwards;
   z-index: 1000;
 }
@@ -790,7 +793,6 @@ main {
     transform: translateX(0);
     opacity: 1;
   }
-  
 }
 
 @keyframes slideRight {
@@ -802,4 +804,70 @@ main {
     transform: translateX(0);
     opacity: 1;
   }
+}
+
+.contact-title {
+  text-align: center;
+}
+.contact-description {
+  text-align: center;
+  margin-block: 20px;
+  max-width: 500px;
+  margin-inline: auto;
+}
+.contact-form {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+  max-width: 500px;
+  margin-inline: auto;
+}
+
+.contact-input {
+  border: 2px solid var(--border-color);
+  border-radius: 12px;
+  padding: 12px 16px;
+  transition-duration: 0.3s;
+  transition-property: border-color;
+}
+.contact-input:focus {
+  border-color: var(--primary-color);
+}
+.contact-textarea {
+  border-radius: 12px;
+  transition-duration: 0.3s;
+  padding: 12px 16px;
+  transition-property: border-color;
+  border: 2px solid var(--border-color);
+  min-height: 140px;
+}
+.contact-textarea:focus {
+  border-color: var(--primary-color);
+}
+.contact-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 16px;
+  background-color: var(--primary-color);
+  color: #fff;
+  border-radius: 12px;
+  font-weight: 600;
+  transition: background-color 0.3s;
+}
+.contact-button:hover {
+  background-color: oklch(0.491 0.27 292.581);
+}
+.about-us-title {
+  text-align: center;
+  margin-block-end: 20px;
+}
+.about-us-description {
+  text-align: center;
+  width: 100%;
+  max-width: 600px;
+  margin-inline: auto
+}
+.about-us-description:nth-child(2) {
+  margin-block-end: 20px;
 }
